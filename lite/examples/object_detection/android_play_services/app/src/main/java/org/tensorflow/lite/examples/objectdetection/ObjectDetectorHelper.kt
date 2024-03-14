@@ -92,7 +92,7 @@ class ObjectDetectorHelper(
                 // Default
             }
             DELEGATE_GPU -> {
-                if (gpuSupported) {
+                if (gpuSuppored) {
                     baseOptionsBuilder.useGpu()
                 } else {
                     objectDetectorListener.onError("GPU is not supported on this device")
